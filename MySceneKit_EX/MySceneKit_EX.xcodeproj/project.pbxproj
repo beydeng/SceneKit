@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0705939D1F4BBB7100BE1BCE /* ParticleSystemClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0705939C1F4BBB7100BE1BCE /* ParticleSystemClassViewController.m */; };
+		070593A51F4BDA5100BE1BCE /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 070593A31F4BDA5100BE1BCE /* fire.scnp */; };
+		070593A61F4BDA5100BE1BCE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 070593A41F4BDA5100BE1BCE /* spark.png */; };
+		070593A91F4BE07700BE1BCE /* TheRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070593A81F4BE07700BE1BCE /* TheRootTableViewController.m */; };
+		070593AC1F4BFDB900BE1BCE /* PhysicsActionOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070593AB1F4BFDB900BE1BCE /* PhysicsActionOfClassViewController.m */; };
+		070593AE1F4C009E00BE1BCE /* floor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 070593AD1F4C009E00BE1BCE /* floor.jpg */; };
+		070593B11F4C0A5900BE1BCE /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 070593AF1F4C0A5900BE1BCE /* Smoke.scnp */; };
+		070593B21F4C0A5900BE1BCE /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 070593B01F4C0A5900BE1BCE /* smoke.png */; };
+		070593B51F4C0EA800BE1BCE /* SCKKinnerOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070593B41F4C0EA800BE1BCE /* SCKKinnerOfClassViewController.m */; };
+		070A44E01F43DA970096BDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A44DF1F43DA970096BDA7 /* main.m */; };
+		070A44E31F43DA970096BDA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A44E21F43DA970096BDA7 /* AppDelegate.m */; };
+		070A44E51F43DA970096BDA7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 070A44E41F43DA970096BDA7 /* art.scnassets */; };
+		070A44E81F43DA970096BDA7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A44E71F43DA970096BDA7 /* GameViewController.m */; };
+		070A44ED1F43DA970096BDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070A44EC1F43DA970096BDA7 /* Assets.xcassets */; };
+		070A44FA1F43E6220096BDA7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A44F91F43E6220096BDA7 /* MainViewController.m */; };
+		07147D271F4EA9D100B4828B /* SceneChangeOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07147D261F4EA9D100B4828B /* SceneChangeOfClassViewController.m */; };
+		07147D2A1F4EB12E00B4828B /* ShadowUserOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07147D291F4EB12E00B4828B /* ShadowUserOfClassViewController.m */; };
+		072D31B01F5CF9520026232E /* AManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072D31AF1F5CF9520026232E /* AManViewController.m */; };
+		0756B4181F4AE38A00D188A9 /* SCNPhysicsWorldOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0756B4171F4AE38A00D188A9 /* SCNPhysicsWorldOfClassViewController.m */; };
+		076954491F4FB27300217B4D /* SkyBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076954481F4FB27300217B4D /* SkyBoxViewController.m */; };
+		0769544F1F4FB9BB00217B4D /* skybox01_cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 0769544E1F4FB9BB00217B4D /* skybox01_cube.png */; };
+		076954521F4FBD5100217B4D /* SceneKitPlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076954511F4FBD5100217B4D /* SceneKitPlayVideoViewController.m */; };
+		076954541F4FC01800217B4D /* 123.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 076954531F4FC01800217B4D /* 123.mp4 */; };
+		076954571F4FC28500217B4D /* SCNUtoVRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076954561F4FC28500217B4D /* SCNUtoVRPlayerViewController.m */; };
+		076954591F4FC4FA00217B4D /* fly.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 076954581F4FC4FA00217B4D /* fly.mp4 */; };
+		0769545C1F4FCA5000217B4D /* CollisionDetectionOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0769545B1F4FCA5000217B4D /* CollisionDetectionOfClassViewController.m */; };
+		0769545F1F4FF26A00217B4D /* DebugOfSceneKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0769545E1F4FF26A00217B4D /* DebugOfSceneKitViewController.m */; };
+		076954621F4FFDAD00217B4D /* SCNNodeCloneOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076954611F4FFDAD00217B4D /* SCNNodeCloneOfClassViewController.m */; };
+		076F32361F4ACF55004DE2D7 /* MaterialClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F32351F4ACF55004DE2D7 /* MaterialClassViewController.m */; };
+		0791D8A41F4D1105006944A8 /* AnimationTransitionEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0791D8A31F4D1105006944A8 /* AnimationTransitionEffectViewController.m */; };
+		079375B81F5006DE00AF605B /* PictureInPictureOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079375B71F5006DE00AF605B /* PictureInPictureOfClassViewController.m */; };
+		0795F2BE1F469C7900945D2C /* FirstClassOfSCNNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795F2BD1F469C7900945D2C /* FirstClassOfSCNNodeViewController.m */; };
+		0795F2C11F46B94800945D2C /* SecondOfClassSCNLightUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795F2C01F46B94800945D2C /* SecondOfClassSCNLightUIViewController.m */; };
+		0795F2C41F46DE1500945D2C /* ThirdOfClassSCNCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795F2C31F46DE1400945D2C /* ThirdOfClassSCNCameraViewController.m */; };
+		079F5DCF1F45355A0090F07D /* SceneKitFirstClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F5DCE1F45355A0090F07D /* SceneKitFirstClassViewController.m */; };
+		07A122881F45892A006C84B6 /* TheGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A122871F45892A006C84B6 /* TheGameViewController.m */; };
+		07A1228C1F45895D006C84B6 /* TheGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A1228B1F45895D006C84B6 /* TheGameView.m */; };
+		07A1228F1F458A85006C84B6 /* TheGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A1228E1F458A85006C84B6 /* TheGameScene.m */; };
+		07AB2D081F4ECB0200A03E1D /* SCNAnimationEventOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AB2D071F4ECB0200A03E1D /* SCNAnimationEventOfClassViewController.m */; };
+		07CA13EB1F4A81F90029401F /* FourOfClassACNActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CA13EA1F4A81F90029401F /* FourOfClassACNActionViewController.m */; };
+		07CA13EE1F4A90A50029401F /* FiveOfClassSCNGeometryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CA13ED1F4A90A50029401F /* FiveOfClassSCNGeometryViewController.m */; };
+		07E80CD21F4D269D00F30D01 /* ChangeCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E80CD11F4D269D00F30D01 /* ChangeCameraViewController.m */; };
+		07E80CD51F4D562B00F30D01 /* SCNConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E80CD41F4D562B00F30D01 /* SCNConstraintViewController.m */; };
+		07E80CD81F4D698D00F30D01 /* SCNPhysicsFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E80CD71F4D698D00F30D01 /* SCNPhysicsFieldViewController.m */; };
+		07E8926A1F53AF8B004BA1BC /* SCNLevelOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E892691F53AF8B004BA1BC /* SCNLevelOfClassViewController.m */; };
+		07E8926D1F53B403004BA1BC /* TheShapesOfPhysicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8926C1F53B403004BA1BC /* TheShapesOfPhysicsViewController.m */; };
+		07E892821F541833004BA1BC /* GLSLUseingOfClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E892811F541833004BA1BC /* GLSLUseingOfClassViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0705939B1F4BBB7100BE1BCE /* ParticleSystemClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystemClassViewController.h; sourceTree = "<group>"; };
+		0705939C1F4BBB7100BE1BCE /* ParticleSystemClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleSystemClassViewController.m; sourceTree = "<group>"; };
+		070593A31F4BDA5100BE1BCE /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
+		070593A41F4BDA5100BE1BCE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		070593A71F4BE07700BE1BCE /* TheRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheRootTableViewController.h; sourceTree = "<group>"; };
+		070593A81F4BE07700BE1BCE /* TheRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheRootTableViewController.m; sourceTree = "<group>"; };
+		070593AA1F4BFDB900BE1BCE /* PhysicsActionOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsActionOfClassViewController.h; sourceTree = "<group>"; };
+		070593AB1F4BFDB900BE1BCE /* PhysicsActionOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsActionOfClassViewController.m; sourceTree = "<group>"; };
+		070593AD1F4C009E00BE1BCE /* floor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floor.jpg; sourceTree = "<group>"; };
+		070593AF1F4C0A5900BE1BCE /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
+		070593B01F4C0A5900BE1BCE /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		070593B31F4C0EA800BE1BCE /* SCKKinnerOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCKKinnerOfClassViewController.h; sourceTree = "<group>"; };
+		070593B41F4C0EA800BE1BCE /* SCKKinnerOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCKKinnerOfClassViewController.m; sourceTree = "<group>"; };
+		070A44DB1F43DA970096BDA7 /* MySceneKit_EX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySceneKit_EX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		070A44DF1F43DA970096BDA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		070A44E11F43DA970096BDA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		070A44E21F43DA970096BDA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		070A44E41F43DA970096BDA7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		070A44E61F43DA970096BDA7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		070A44E71F43DA970096BDA7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		070A44EC1F43DA970096BDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		070A44F11F43DA970096BDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070A44F81F43E6220096BDA7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		070A44F91F43E6220096BDA7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		07147D251F4EA9D100B4828B /* SceneChangeOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneChangeOfClassViewController.h; sourceTree = "<group>"; };
+		07147D261F4EA9D100B4828B /* SceneChangeOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneChangeOfClassViewController.m; sourceTree = "<group>"; };
+		07147D281F4EB12E00B4828B /* ShadowUserOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowUserOfClassViewController.h; sourceTree = "<group>"; };
+		07147D291F4EB12E00B4828B /* ShadowUserOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowUserOfClassViewController.m; sourceTree = "<group>"; };
+		072D31AE1F5CF9520026232E /* AManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AManViewController.h; sourceTree = "<group>"; };
+		072D31AF1F5CF9520026232E /* AManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AManViewController.m; sourceTree = "<group>"; };
+		0756B4161F4AE38A00D188A9 /* SCNPhysicsWorldOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNPhysicsWorldOfClassViewController.h; sourceTree = "<group>"; };
+		0756B4171F4AE38A00D188A9 /* SCNPhysicsWorldOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNPhysicsWorldOfClassViewController.m; sourceTree = "<group>"; };
+		076954471F4FB27300217B4D /* SkyBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyBoxViewController.h; sourceTree = "<group>"; };
+		076954481F4FB27300217B4D /* SkyBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyBoxViewController.m; sourceTree = "<group>"; };
+		0769544E1F4FB9BB00217B4D /* skybox01_cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox01_cube.png; sourceTree = "<group>"; };
+		076954501F4FBD5100217B4D /* SceneKitPlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneKitPlayVideoViewController.h; sourceTree = "<group>"; };
+		076954511F4FBD5100217B4D /* SceneKitPlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneKitPlayVideoViewController.m; sourceTree = "<group>"; };
+		076954531F4FC01800217B4D /* 123.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123.mp4; sourceTree = "<group>"; };
+		076954551F4FC28500217B4D /* SCNUtoVRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNUtoVRPlayerViewController.h; sourceTree = "<group>"; };
+		076954561F4FC28500217B4D /* SCNUtoVRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNUtoVRPlayerViewController.m; sourceTree = "<group>"; };
+		076954581F4FC4FA00217B4D /* fly.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fly.mp4; sourceTree = "<group>"; };
+		0769545A1F4FCA5000217B4D /* CollisionDetectionOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionDetectionOfClassViewController.h; sourceTree = "<group>"; };
+		0769545B1F4FCA5000217B4D /* CollisionDetectionOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionDetectionOfClassViewController.m; sourceTree = "<group>"; };
+		0769545D1F4FF26A00217B4D /* DebugOfSceneKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugOfSceneKitViewController.h; sourceTree = "<group>"; };
+		0769545E1F4FF26A00217B4D /* DebugOfSceneKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugOfSceneKitViewController.m; sourceTree = "<group>"; };
+		076954601F4FFDAD00217B4D /* SCNNodeCloneOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNNodeCloneOfClassViewController.h; sourceTree = "<group>"; };
+		076954611F4FFDAD00217B4D /* SCNNodeCloneOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNNodeCloneOfClassViewController.m; sourceTree = "<group>"; };
+		076F32341F4ACF55004DE2D7 /* MaterialClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialClassViewController.h; sourceTree = "<group>"; };
+		076F32351F4ACF55004DE2D7 /* MaterialClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialClassViewController.m; sourceTree = "<group>"; };
+		0791D8A21F4D1105006944A8 /* AnimationTransitionEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTransitionEffectViewController.h; sourceTree = "<group>"; };
+		0791D8A31F4D1105006944A8 /* AnimationTransitionEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionEffectViewController.m; sourceTree = "<group>"; };
+		079375B61F5006DE00AF605B /* PictureInPictureOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureInPictureOfClassViewController.h; sourceTree = "<group>"; };
+		079375B71F5006DE00AF605B /* PictureInPictureOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureInPictureOfClassViewController.m; sourceTree = "<group>"; };
+		0795F2BC1F469C7900945D2C /* FirstClassOfSCNNodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstClassOfSCNNodeViewController.h; sourceTree = "<group>"; };
+		0795F2BD1F469C7900945D2C /* FirstClassOfSCNNodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstClassOfSCNNodeViewController.m; sourceTree = "<group>"; };
+		0795F2BF1F46B94800945D2C /* SecondOfClassSCNLightUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondOfClassSCNLightUIViewController.h; sourceTree = "<group>"; };
+		0795F2C01F46B94800945D2C /* SecondOfClassSCNLightUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondOfClassSCNLightUIViewController.m; sourceTree = "<group>"; };
+		0795F2C21F46DE1400945D2C /* ThirdOfClassSCNCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdOfClassSCNCameraViewController.h; sourceTree = "<group>"; };
+		0795F2C31F46DE1400945D2C /* ThirdOfClassSCNCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdOfClassSCNCameraViewController.m; sourceTree = "<group>"; };
+		079F5DCD1F45355A0090F07D /* SceneKitFirstClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneKitFirstClassViewController.h; sourceTree = "<group>"; };
+		079F5DCE1F45355A0090F07D /* SceneKitFirstClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneKitFirstClassViewController.m; sourceTree = "<group>"; };
+		07A122861F45892A006C84B6 /* TheGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheGameViewController.h; sourceTree = "<group>"; };
+		07A122871F45892A006C84B6 /* TheGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheGameViewController.m; sourceTree = "<group>"; };
+		07A1228A1F45895D006C84B6 /* TheGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheGameView.h; sourceTree = "<group>"; };
+		07A1228B1F45895D006C84B6 /* TheGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheGameView.m; sourceTree = "<group>"; };
+		07A1228D1F458A85006C84B6 /* TheGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheGameScene.h; sourceTree = "<group>"; };
+		07A1228E1F458A85006C84B6 /* TheGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheGameScene.m; sourceTree = "<group>"; };
+		07AB2D061F4ECB0200A03E1D /* SCNAnimationEventOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNAnimationEventOfClassViewController.h; sourceTree = "<group>"; };
+		07AB2D071F4ECB0200A03E1D /* SCNAnimationEventOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNAnimationEventOfClassViewController.m; sourceTree = "<group>"; };
+		07CA13E91F4A81F90029401F /* FourOfClassACNActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourOfClassACNActionViewController.h; sourceTree = "<group>"; };
+		07CA13EA1F4A81F90029401F /* FourOfClassACNActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourOfClassACNActionViewController.m; sourceTree = "<group>"; };
+		07CA13EC1F4A90A50029401F /* FiveOfClassSCNGeometryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveOfClassSCNGeometryViewController.h; sourceTree = "<group>"; };
+		07CA13ED1F4A90A50029401F /* FiveOfClassSCNGeometryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveOfClassSCNGeometryViewController.m; sourceTree = "<group>"; };
+		07E80CD01F4D269D00F30D01 /* ChangeCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeCameraViewController.h; sourceTree = "<group>"; };
+		07E80CD11F4D269D00F30D01 /* ChangeCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeCameraViewController.m; sourceTree = "<group>"; };
+		07E80CD31F4D562B00F30D01 /* SCNConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNConstraintViewController.h; sourceTree = "<group>"; };
+		07E80CD41F4D562B00F30D01 /* SCNConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNConstraintViewController.m; sourceTree = "<group>"; };
+		07E80CD61F4D698D00F30D01 /* SCNPhysicsFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNPhysicsFieldViewController.h; sourceTree = "<group>"; };
+		07E80CD71F4D698D00F30D01 /* SCNPhysicsFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNPhysicsFieldViewController.m; sourceTree = "<group>"; };
+		07E892681F53AF8B004BA1BC /* SCNLevelOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNLevelOfClassViewController.h; sourceTree = "<group>"; };
+		07E892691F53AF8B004BA1BC /* SCNLevelOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNLevelOfClassViewController.m; sourceTree = "<group>"; };
+		07E8926B1F53B403004BA1BC /* TheShapesOfPhysicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheShapesOfPhysicsViewController.h; sourceTree = "<group>"; };
+		07E8926C1F53B403004BA1BC /* TheShapesOfPhysicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheShapesOfPhysicsViewController.m; sourceTree = "<group>"; };
+		07E892801F541833004BA1BC /* GLSLUseingOfClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSLUseingOfClassViewController.h; sourceTree = "<group>"; };
+		07E892811F541833004BA1BC /* GLSLUseingOfClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSLUseingOfClassViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		070A44D81F43DA970096BDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0705939E1F4BBF5900BE1BCE /* 粒子系统文件 */ = {
+			isa = PBXGroup;
+			children = (
+				070593A31F4BDA5100BE1BCE /* fire.scnp */,
+				070593A41F4BDA5100BE1BCE /* spark.png */,
+				070593AF1F4C0A5900BE1BCE /* Smoke.scnp */,
+				070593B01F4C0A5900BE1BCE /* smoke.png */,
+			);
+			name = "粒子系统文件";
+			sourceTree = "<group>";
+		};
+		070A44D21F43DA970096BDA7 = {
+			isa = PBXGroup;
+			children = (
+				070A44DD1F43DA970096BDA7 /* MySceneKit_EX */,
+				070A44DC1F43DA970096BDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		070A44DC1F43DA970096BDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				070A44DB1F43DA970096BDA7 /* MySceneKit_EX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		070A44DD1F43DA970096BDA7 /* MySceneKit_EX */ = {
+			isa = PBXGroup;
+			children = (
+				0795F2BB1F469A3500945D2C /* 从0学习SceneKit到放弃 */,
+				070A44F71F43E5D00096BDA7 /* 主页 */,
+				070A44E11F43DA970096BDA7 /* AppDelegate.h */,
+				070A44E21F43DA970096BDA7 /* AppDelegate.m */,
+				070A44E41F43DA970096BDA7 /* art.scnassets */,
+				070A44E61F43DA970096BDA7 /* GameViewController.h */,
+				070A44E71F43DA970096BDA7 /* GameViewController.m */,
+				070A44EC1F43DA970096BDA7 /* Assets.xcassets */,
+				070A44F11F43DA970096BDA7 /* Info.plist */,
+				070A44DE1F43DA970096BDA7 /* Supporting Files */,
+			);
+			path = MySceneKit_EX;
+			sourceTree = "<group>";
+		};
+		070A44DE1F43DA970096BDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				070A44DF1F43DA970096BDA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		070A44F71F43E5D00096BDA7 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				07A122891F458937006C84B6 /* View */,
+				070A44F81F43E6220096BDA7 /* MainViewController.h */,
+				070A44F91F43E6220096BDA7 /* MainViewController.m */,
+				079F5DCD1F45355A0090F07D /* SceneKitFirstClassViewController.h */,
+				079F5DCE1F45355A0090F07D /* SceneKitFirstClassViewController.m */,
+				07A122861F45892A006C84B6 /* TheGameViewController.h */,
+				07A122871F45892A006C84B6 /* TheGameViewController.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
+		0795F2BB1F469A3500945D2C /* 从0学习SceneKit到放弃 */ = {
+			isa = PBXGroup;
+			children = (
+				070593A71F4BE07700BE1BCE /* TheRootTableViewController.h */,
+				070593A81F4BE07700BE1BCE /* TheRootTableViewController.m */,
+				070593AD1F4C009E00BE1BCE /* floor.jpg */,
+				0769544E1F4FB9BB00217B4D /* skybox01_cube.png */,
+				076954531F4FC01800217B4D /* 123.mp4 */,
+				076954581F4FC4FA00217B4D /* fly.mp4 */,
+				0705939E1F4BBF5900BE1BCE /* 粒子系统文件 */,
+				0795F2BC1F469C7900945D2C /* FirstClassOfSCNNodeViewController.h */,
+				0795F2BD1F469C7900945D2C /* FirstClassOfSCNNodeViewController.m */,
+				0795F2BF1F46B94800945D2C /* SecondOfClassSCNLightUIViewController.h */,
+				0795F2C01F46B94800945D2C /* SecondOfClassSCNLightUIViewController.m */,
+				0795F2C21F46DE1400945D2C /* ThirdOfClassSCNCameraViewController.h */,
+				0795F2C31F46DE1400945D2C /* ThirdOfClassSCNCameraViewController.m */,
+				07CA13E91F4A81F90029401F /* FourOfClassACNActionViewController.h */,
+				07CA13EA1F4A81F90029401F /* FourOfClassACNActionViewController.m */,
+				07CA13EC1F4A90A50029401F /* FiveOfClassSCNGeometryViewController.h */,
+				07CA13ED1F4A90A50029401F /* FiveOfClassSCNGeometryViewController.m */,
+				076F32341F4ACF55004DE2D7 /* MaterialClassViewController.h */,
+				076F32351F4ACF55004DE2D7 /* MaterialClassViewController.m */,
+				0756B4161F4AE38A00D188A9 /* SCNPhysicsWorldOfClassViewController.h */,
+				0756B4171F4AE38A00D188A9 /* SCNPhysicsWorldOfClassViewController.m */,
+				0705939B1F4BBB7100BE1BCE /* ParticleSystemClassViewController.h */,
+				0705939C1F4BBB7100BE1BCE /* ParticleSystemClassViewController.m */,
+				070593AA1F4BFDB900BE1BCE /* PhysicsActionOfClassViewController.h */,
+				070593AB1F4BFDB900BE1BCE /* PhysicsActionOfClassViewController.m */,
+				070593B31F4C0EA800BE1BCE /* SCKKinnerOfClassViewController.h */,
+				070593B41F4C0EA800BE1BCE /* SCKKinnerOfClassViewController.m */,
+				0791D8A21F4D1105006944A8 /* AnimationTransitionEffectViewController.h */,
+				0791D8A31F4D1105006944A8 /* AnimationTransitionEffectViewController.m */,
+				07E80CD01F4D269D00F30D01 /* ChangeCameraViewController.h */,
+				07E80CD11F4D269D00F30D01 /* ChangeCameraViewController.m */,
+				07E80CD31F4D562B00F30D01 /* SCNConstraintViewController.h */,
+				07E80CD41F4D562B00F30D01 /* SCNConstraintViewController.m */,
+				07E80CD61F4D698D00F30D01 /* SCNPhysicsFieldViewController.h */,
+				07E80CD71F4D698D00F30D01 /* SCNPhysicsFieldViewController.m */,
+				07147D251F4EA9D100B4828B /* SceneChangeOfClassViewController.h */,
+				07147D261F4EA9D100B4828B /* SceneChangeOfClassViewController.m */,
+				07147D281F4EB12E00B4828B /* ShadowUserOfClassViewController.h */,
+				07147D291F4EB12E00B4828B /* ShadowUserOfClassViewController.m */,
+				07AB2D061F4ECB0200A03E1D /* SCNAnimationEventOfClassViewController.h */,
+				07AB2D071F4ECB0200A03E1D /* SCNAnimationEventOfClassViewController.m */,
+				076954471F4FB27300217B4D /* SkyBoxViewController.h */,
+				076954481F4FB27300217B4D /* SkyBoxViewController.m */,
+				076954501F4FBD5100217B4D /* SceneKitPlayVideoViewController.h */,
+				076954511F4FBD5100217B4D /* SceneKitPlayVideoViewController.m */,
+				076954551F4FC28500217B4D /* SCNUtoVRPlayerViewController.h */,
+				076954561F4FC28500217B4D /* SCNUtoVRPlayerViewController.m */,
+				0769545A1F4FCA5000217B4D /* CollisionDetectionOfClassViewController.h */,
+				0769545B1F4FCA5000217B4D /* CollisionDetectionOfClassViewController.m */,
+				0769545D1F4FF26A00217B4D /* DebugOfSceneKitViewController.h */,
+				0769545E1F4FF26A00217B4D /* DebugOfSceneKitViewController.m */,
+				076954601F4FFDAD00217B4D /* SCNNodeCloneOfClassViewController.h */,
+				076954611F4FFDAD00217B4D /* SCNNodeCloneOfClassViewController.m */,
+				079375B61F5006DE00AF605B /* PictureInPictureOfClassViewController.h */,
+				079375B71F5006DE00AF605B /* PictureInPictureOfClassViewController.m */,
+				07E892681F53AF8B004BA1BC /* SCNLevelOfClassViewController.h */,
+				07E892691F53AF8B004BA1BC /* SCNLevelOfClassViewController.m */,
+				07E8926B1F53B403004BA1BC /* TheShapesOfPhysicsViewController.h */,
+				07E8926C1F53B403004BA1BC /* TheShapesOfPhysicsViewController.m */,
+				07E892801F541833004BA1BC /* GLSLUseingOfClassViewController.h */,
+				07E892811F541833004BA1BC /* GLSLUseingOfClassViewController.m */,
+				072D31AE1F5CF9520026232E /* AManViewController.h */,
+				072D31AF1F5CF9520026232E /* AManViewController.m */,
+			);
+			name = "从0学习SceneKit到放弃";
+			sourceTree = "<group>";
+		};
+		07A122891F458937006C84B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07A1228A1F45895D006C84B6 /* TheGameView.h */,
+				07A1228B1F45895D006C84B6 /* TheGameView.m */,
+				07A1228D1F458A85006C84B6 /* TheGameScene.h */,
+				07A1228E1F458A85006C84B6 /* TheGameScene.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		070A44DA1F43DA970096BDA7 /* MySceneKit_EX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070A44F41F43DA970096BDA7 /* Build configuration list for PBXNativeTarget "MySceneKit_EX" */;
+			buildPhases = (
+				070A44D71F43DA970096BDA7 /* Sources */,
+				070A44D81F43DA970096BDA7 /* Frameworks */,
+				070A44D91F43DA970096BDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySceneKit_EX;
+			productName = MySceneKit_EX;
+			productReference = 070A44DB1F43DA970096BDA7 /* MySceneKit_EX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070A44D31F43DA970096BDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = www.TheSuperApplication.com;
+				TargetAttributes = {
+					070A44DA1F43DA970096BDA7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6MVF2K4FPQ;
+					};
+				};
+			};
+			buildConfigurationList = 070A44D61F43DA970096BDA7 /* Build configuration list for PBXProject "MySceneKit_EX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 070A44D21F43DA970096BDA7;
+			productRefGroup = 070A44DC1F43DA970096BDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				070A44DA1F43DA970096BDA7 /* MySceneKit_EX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070A44D91F43DA970096BDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070593A51F4BDA5100BE1BCE /* fire.scnp in Resources */,
+				070593A61F4BDA5100BE1BCE /* spark.png in Resources */,
+				070593B21F4C0A5900BE1BCE /* smoke.png in Resources */,
+				076954541F4FC01800217B4D /* 123.mp4 in Resources */,
+				0769544F1F4FB9BB00217B4D /* skybox01_cube.png in Resources */,
+				076954591F4FC4FA00217B4D /* fly.mp4 in Resources */,
+				070A44E51F43DA970096BDA7 /* art.scnassets in Resources */,
+				070593AE1F4C009E00BE1BCE /* floor.jpg in Resources */,
+				070A44ED1F43DA970096BDA7 /* Assets.xcassets in Resources */,
+				070593B11F4C0A5900BE1BCE /* Smoke.scnp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070A44D71F43DA970096BDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070593A91F4BE07700BE1BCE /* TheRootTableViewController.m in Sources */,
+				07E80CD81F4D698D00F30D01 /* SCNPhysicsFieldViewController.m in Sources */,
+				070A44E31F43DA970096BDA7 /* AppDelegate.m in Sources */,
+				076954491F4FB27300217B4D /* SkyBoxViewController.m in Sources */,
+				07E8926A1F53AF8B004BA1BC /* SCNLevelOfClassViewController.m in Sources */,
+				07E892821F541833004BA1BC /* GLSLUseingOfClassViewController.m in Sources */,
+				0795F2BE1F469C7900945D2C /* FirstClassOfSCNNodeViewController.m in Sources */,
+				0791D8A41F4D1105006944A8 /* AnimationTransitionEffectViewController.m in Sources */,
+				070A44E81F43DA970096BDA7 /* GameViewController.m in Sources */,
+				07A1228F1F458A85006C84B6 /* TheGameScene.m in Sources */,
+				0795F2C11F46B94800945D2C /* SecondOfClassSCNLightUIViewController.m in Sources */,
+				07CA13EB1F4A81F90029401F /* FourOfClassACNActionViewController.m in Sources */,
+				076F32361F4ACF55004DE2D7 /* MaterialClassViewController.m in Sources */,
+				07A122881F45892A006C84B6 /* TheGameViewController.m in Sources */,
+				079375B81F5006DE00AF605B /* PictureInPictureOfClassViewController.m in Sources */,
+				070A44E01F43DA970096BDA7 /* main.m in Sources */,
+				0769545C1F4FCA5000217B4D /* CollisionDetectionOfClassViewController.m in Sources */,
+				070A44FA1F43E6220096BDA7 /* MainViewController.m in Sources */,
+				07E8926D1F53B403004BA1BC /* TheShapesOfPhysicsViewController.m in Sources */,
+				072D31B01F5CF9520026232E /* AManViewController.m in Sources */,
+				0756B4181F4AE38A00D188A9 /* SCNPhysicsWorldOfClassViewController.m in Sources */,
+				070593B51F4C0EA800BE1BCE /* SCKKinnerOfClassViewController.m in Sources */,
+				070593AC1F4BFDB900BE1BCE /* PhysicsActionOfClassViewController.m in Sources */,
+				07CA13EE1F4A90A50029401F /* FiveOfClassSCNGeometryViewController.m in Sources */,
+				07AB2D081F4ECB0200A03E1D /* SCNAnimationEventOfClassViewController.m in Sources */,
+				07E80CD51F4D562B00F30D01 /* SCNConstraintViewController.m in Sources */,
+				0705939D1F4BBB7100BE1BCE /* ParticleSystemClassViewController.m in Sources */,
+				079F5DCF1F45355A0090F07D /* SceneKitFirstClassViewController.m in Sources */,
+				076954521F4FBD5100217B4D /* SceneKitPlayVideoViewController.m in Sources */,
+				0795F2C41F46DE1500945D2C /* ThirdOfClassSCNCameraViewController.m in Sources */,
+				07E80CD21F4D269D00F30D01 /* ChangeCameraViewController.m in Sources */,
+				076954571F4FC28500217B4D /* SCNUtoVRPlayerViewController.m in Sources */,
+				076954621F4FFDAD00217B4D /* SCNNodeCloneOfClassViewController.m in Sources */,
+				0769545F1F4FF26A00217B4D /* DebugOfSceneKitViewController.m in Sources */,
+				07A1228C1F45895D006C84B6 /* TheGameView.m in Sources */,
+				07147D2A1F4EB12E00B4828B /* ShadowUserOfClassViewController.m in Sources */,
+				07147D271F4EA9D100B4828B /* SceneChangeOfClassViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		070A44F21F43DA970096BDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		070A44F31F43DA970096BDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		070A44F51F43DA970096BDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MySceneKit_EX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.zlcm.com.zlcmhllx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		070A44F61F43DA970096BDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MySceneKit_EX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.zlcm.com.zlcmhllx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070A44D61F43DA970096BDA7 /* Build configuration list for PBXProject "MySceneKit_EX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A44F21F43DA970096BDA7 /* Debug */,
+				070A44F31F43DA970096BDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070A44F41F43DA970096BDA7 /* Build configuration list for PBXNativeTarget "MySceneKit_EX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A44F51F43DA970096BDA7 /* Debug */,
+				070A44F61F43DA970096BDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070A44D31F43DA970096BDA7 /* Project object */;
+}
